@@ -14,9 +14,10 @@ body {
 /* HEADER */
 
 header {
-    background-image: url("imagens/campo.jpg");
+    background-image: url('./imagens/campo.jpg'); /* caminho relativo correto */
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     height: 100vh;
     display: flex;
     justify-content: center;
